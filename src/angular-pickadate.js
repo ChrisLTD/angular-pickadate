@@ -77,7 +77,7 @@
                 '<a href="" class="pickadate-next" ng-click="changeMonth(1)" ng-show="allowNextMonth">{{t("next")}}</a>' +
               '</div>'+
               '<h3 class="pickadate-centered-heading">' +
-                '{{currentDate | date:"MMMM yyyy"}}' +
+                '{{currentDate | date:"MMMM 20yy"}}' +
               '</h3>' +
             '</div>' +
             '<div class="pickadate-body">' +
